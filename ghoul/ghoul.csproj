@@ -1,0 +1,157 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="pics\animego.png" />
+    <None Remove="pics\background.png" />
+    <None Remove="pics\buttonbackground.png" />
+    <None Remove="pics\charactersbutton.png" />
+    <None Remove="pics\characterspagebutton.png" />
+    <None Remove="pics\characterspicbackground.png" />
+    <None Remove="pics\characterstextbackground.png" />
+    <None Remove="pics\dashboard.png" />
+    <None Remove="pics\jutsu.png" />
+    <None Remove="pics\kaneki1.png" />
+    <None Remove="pics\kaneki2.png" />
+    <None Remove="pics\kaneki3.png" />
+    <None Remove="pics\kanekicharacterpic.png" />
+    <None Remove="pics\kanekicharactertext.png" />
+    <None Remove="pics\logo.png" />
+    <None Remove="pics\logobackground.png" />
+    <None Remove="pics\logotext.png" />
+    <None Remove="pics\mainbackground.jpg" />
+    <None Remove="pics\mainbutton.png" />
+    <None Remove="pics\mainpagebutton.png" />
+    <None Remove="pics\picbackground.png" />
+    <None Remove="pics\quote1.png" />
+    <None Remove="pics\quote2.png" />
+    <None Remove="pics\quote3.png" />
+    <None Remove="pics\quote4.png" />
+    <None Remove="pics\quote5.png" />
+    <None Remove="pics\quote6.png" />
+    <None Remove="pics\quotesbutton.png" />
+    <None Remove="pics\quotespagebutton.png" />
+    <None Remove="pics\rizecharacterpic.png" />
+    <None Remove="pics\rizecharactertext.png" />
+    <None Remove="pics\text.png" />
+    <None Remove="pics\textback.png" />
+    <None Remove="pics\textbackground.png" />
+    <None Remove="pics\textboxback.png" />
+    <None Remove="pics\textboxmain.png" />
+    <None Remove="pics\textmain.png" />
+    <None Remove="pics\toukacharacterpic.png" />
+    <None Remove="pics\toukacharactertext.png" />
+    <None Remove="pics\watchbutton.png" />
+    <None Remove="pics\watchpagebutton.png" />
+    <None Remove="pics\yummyanime.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="pics\animego.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="pics\characterspicbackground.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignColors" Version="2.1.2" />
+    <PackageReference Include="MaterialDesignThemes" Version="4.8.0" />
+    <PackageReference Include="MaterialDesignThemes.MahApps" Version="0.2.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="pics\background.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="pics\buttonbackground.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="pics\characterspagebutton.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="pics\characterstextbackground.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="pics\dashboard.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="pics\jutsu.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="pics\kaneki1.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="pics\kaneki2.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="pics\kanekicharacterpic.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="pics\kanekicharactertext.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="pics\logo.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="pics\mainpagebutton.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="pics\picbackground.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="pics\quote1.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="pics\quote2.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="pics\quote3.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="pics\quote4.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="pics\quote5.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="pics\quote6.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="pics\quotespagebutton.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="pics\rizecharacterpic.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="pics\rizecharactertext.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="pics\text.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="pics\textbackground.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="pics\toukacharacterpic.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="pics\toukacharactertext.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="pics\watchpagebutton.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="pics\yummyanime.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>
